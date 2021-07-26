@@ -1,0 +1,371 @@
+
+
+{
+    "status": {
+      "success": true,
+      "httpstatuscode": 200
+    },
+    "statistics": {
+      "pagetitle": "Q2 | Solutions Designed to Transform Financial Experiences",
+      "pageurl": "q2.com",
+      "time": 3.82,
+      "creditsremaining": 60,
+      "allitemcount": 109,
+      "totalelements": 659,
+      "waveurl": "http://wave.webaim.org/report?url=q2.com",
+      "domid": "6372ebdfa30f3cc8353623d37217e2e9"
+    },
+    "categories": {
+      "error": {
+        "description": "Errors",
+        "count": 15,
+        "items": {
+          "alt_missing": {
+            "id": "alt_missing",
+            "description": "Missing alternative text",
+            "count": 6,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > PICTURE:first-child > IMG:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > IMG:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > IMG:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > DIV:first-child + DIV > DIV:first-child > IMG:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child > IMG:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > IMG:first-child"
+            ]
+          },
+          "label_missing": {
+            "id": "label_missing",
+            "description": "Missing form label",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + INPUT"
+            ]
+          },
+          "button_empty": {
+            "id": "button_empty",
+            "description": "Empty button",
+            "count": 2,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#ot-sdk-btn-floating > DIV:first-child > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#ot-sdk-btn-floating > DIV:first-child + DIV > BUTTON:first-child"
+            ]
+          },
+          "link_empty": {
+            "id": "link_empty",
+            "description": "Empty link",
+            "count": 4,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > UL:first-child > LI:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > UL:first-child > LI:first-child + LI > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > UL:first-child > LI:first-child + LI + LI > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > UL:first-child > LI:first-child + LI + LI + LI > A:first-child"
+            ]
+          },
+          "aria_reference_broken": {
+            "id": "aria_reference_broken",
+            "description": "Broken ARIA reference",
+            "count": 2,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child"
+            ]
+          }
+        }
+      },
+      "contrast": {
+        "description": "Contrast Errors",
+        "count": 6,
+        "items": {
+          "contrast": {
+            "id": "contrast",
+            "description": "Very low contrast",
+            "count": 6,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child + UL > LI:first-child + LI > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > BUTTON:first-child > SMALL:first-child > STRONG:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + DIV + DIV > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + H3 + DIV + DIV > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child + P + DIV > A:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-banner-sdk > DIV:first-child > DIV:first-child > DIV:first-child > DIV#onetrust-group-container > DIV#onetrust-policy > P#onetrust-policy-text > A:first-child"
+            ],
+            "contrastdata": [
+              [
+                1,
+                "#ffffff",
+                "#ffffff",
+                false
+              ],
+              [
+                1,
+                "#ffffff",
+                "#ffffff",
+                false
+              ],
+              [
+                1,
+                "#ffffff",
+                "#ffffff",
+                false
+              ],
+              [
+                1.05,
+                "#ffffff",
+                "#f7f9fa",
+                false
+              ],
+              [
+                1,
+                "#ffffff",
+                "#ffffff",
+                false
+              ],
+              [
+                2.96,
+                "#0076a8",
+                "#25272a",
+                false
+              ]
+            ]
+          }
+        }
+      },
+      "alert": {
+        "description": "Alerts",
+        "count": 1,
+        "items": {
+          "noscript": {
+            "id": "noscript",
+            "description": "Noscript element",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child"
+            ]
+          }
+        }
+      },
+      "feature": {
+        "description": "Features",
+        "count": 8,
+        "items": {
+          "alt": {
+            "id": "alt",
+            "description": "Alternative text",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > IMG:first-child"
+            ]
+          },
+          "label": {
+            "id": "label",
+            "description": "Form label",
+            "count": 5,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3:first-child + DIV > DIV:first-child > P:first-child + LABEL",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3:first-child + DIV > SECTION#ot-fltr-modal > DIV#ot-fltr-cnt > BUTTON:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > INPUT:first-child + LABEL",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > SECTION#ot-lst-cnt > DIV#ot-sel-blk > DIV:first-child > DIV:first-child + DIV > DIV#ot-selall-hostcntr > INPUT:first-child + LABEL",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > SECTION#ot-lst-cnt > DIV#ot-sel-blk > DIV:first-child > DIV:first-child + DIV > DIV#ot-selall-vencntr > INPUT:first-child + LABEL",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > SECTION#ot-lst-cnt > DIV#ot-sel-blk > DIV:first-child > DIV:first-child + DIV > DIV#ot-selall-licntr > INPUT:first-child + LABEL"
+            ]
+          },
+          "lang": {
+            "id": "lang",
+            "description": "Language",
+            "count": 2,
+            "selectors": [
+              false,
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk"
+            ]
+          }
+        }
+      },
+      "structure": {
+        "description": "Structural Elements",
+        "count": 25,
+        "items": {
+          "h1": {
+            "id": "h1",
+            "description": "Heading level 1",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > SPAN:first-child > H1:first-child"
+            ]
+          },
+          "h2": {
+            "id": "h2",
+            "description": "Heading level 2",
+            "count": 3,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > H2:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > H2:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > H2:first-child"
+            ]
+          },
+          "h3": {
+            "id": "h3",
+            "description": "Heading level 3",
+            "count": 6,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > H2:first-child + H3",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child + H3",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3#ot-pc-title",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3#ot-category-title",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3#ot-lst-title",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-banner-sdk > DIV:first-child > DIV:first-child > DIV:first-child > DIV#onetrust-group-container > DIV#onetrust-policy > H3#onetrust-policy-title"
+            ]
+          },
+          "h4": {
+            "id": "h4",
+            "description": "Heading level 4",
+            "count": 4,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV > BUTTON:first-child + DIV > H4#ot-header-id-C0002",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV > BUTTON:first-child + DIV > H4#ot-header-id-C0003",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV + DIV > BUTTON:first-child + DIV > H4#ot-header-id-C0004",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV + DIV + DIV > BUTTON:first-child + DIV > H4#ot-header-id-C0001"
+            ]
+          },
+          "ul": {
+            "id": "ul",
+            "description": "Unordered list",
+            "count": 9,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > svg:first-child + UL",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child + UL",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > UL:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > UL:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > UL:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV + DIV > UL:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child > UL:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child > UL:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV > DIV:first-child + P + UL"
+            ]
+          },
+          "iframe": {
+            "id": "iframe",
+            "description": "Inline frame",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child + DIV + SECTION + DIV + SPAN + IFRAME"
+            ]
+          },
+          "main": {
+            "id": "main",
+            "description": "Main content",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN"
+            ]
+          }
+        }
+      },
+      "aria": {
+        "description": "ARIA",
+        "count": 54,
+        "items": {
+          "aria": {
+            "id": "aria",
+            "description": "ARIA",
+            "count": 22,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > svg:first-child + UL > LI:first-child > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > svg:first-child + UL > LI:first-child + LI > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > svg:first-child + UL > LI:first-child + LI + LI > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV + DIV > DIV:first-child > DIV:first-child > DIV:first-child > DIV:first-child + DIV + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child > DIV:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV + DIV + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3:first-child + DIV > DIV:first-child > P:first-child",
+              false,
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3:first-child + DIV > SECTION#ot-fltr-modal > DIV#ot-fltr-cnt > BUTTON:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child > INPUT#chkbox-id",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > SECTION#ot-lst-cnt > DIV#ot-sel-blk > DIV:first-child > DIV:first-child + DIV > DIV#ot-selall-hostcntr > INPUT#select-all-hosts-groups-handler",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > SECTION#ot-lst-cnt > DIV#ot-sel-blk > DIV:first-child > DIV:first-child + DIV > DIV#ot-selall-vencntr > INPUT#select-all-vendor-groups-handler",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > SECTION#ot-lst-cnt > DIV#ot-sel-blk > DIV:first-child > DIV:first-child + DIV > DIV#ot-selall-licntr > INPUT#select-all-vendor-leg-handler",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child + DIV + SECTION + DIV + SPAN",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-banner-sdk > DIV:first-child",
+              false,
+              false
+            ]
+          },
+          "aria_label": {
+            "id": "aria_label",
+            "description": "ARIA label",
+            "count": 21,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child > DIV:first-child + BUTTON",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV > DIV:first-child + DIV + DIV > DIV:first-child + UL > LI:first-child > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child > DIV:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child > BUTTON#close-pc-btn-handler",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > DIV#ot-pc-desc > BR:first-child + A",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV#ot-pc-content > H3:first-child + DIV + BUTTON + SECTION > H3:first-child + DIV + DIV + DIV + DIV > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3#ot-lst-title > BUTTON:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3:first-child + DIV > DIV:first-child + DIV > BUTTON#filter-btn-handler",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child + DIV + SECTION + DIV > DIV:first-child + DIV > A:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-banner-sdk > DIV:first-child",
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-banner-sdk > DIV:first-child > DIV#onetrust-close-btn-container > BUTTON:first-child"
+            ]
+          },
+          "aria_describedby": {
+            "id": "aria_describedby",
+            "description": "ARIA description",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-banner-sdk > DIV:first-child"
+            ]
+          },
+          "aria_tabindex": {
+            "id": "aria_tabindex",
+            "description": "ARIA tabindex",
+            "count": 6,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV > SMALL:first-child > A:first-child",
+              "HTML > HEAD:first-child + BODY > NOSCRIPT:first-child + MAIN > DIV#app > DIV:first-child + DIV + DIV + DIV > DIV:first-child + DIV > DIV:first-child > DIV:first-child > DIV:first-child + DIV > DIV:first-child > DIV:first-child + DIV + DIV > DIV:first-child + DIV + DIV + DIV + DIV + DIV > SMALL:first-child > A:first-child"
+            ]
+          },
+          "aria_live_region": {
+            "id": "aria_live_region",
+            "description": "ARIA alert or live region",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child + DIV + SECTION + DIV + SPAN"
+            ]
+          },
+          "aria_hidden": {
+            "id": "aria_hidden",
+            "description": "ARIA hidden",
+            "count": 2,
+            "selectors": [
+              false,
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > DIV:first-child + DIV + SECTION + DIV + SPAN + IFRAME"
+            ]
+          },
+          "aria_haspopup": {
+            "id": "aria_haspopup",
+            "description": "ARIA popup",
+            "count": 1,
+            "selectors": [
+              "HTML > HEAD:first-child + BODY > DIV#onetrust-consent-sdk > DIV#onetrust-pc-sdk > SECTION#ot-pc-lst > DIV#ot-pc-hdr > H3:first-child + DIV > DIV:first-child + DIV > BUTTON#filter-btn-handler"
+            ]
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,60 @@
+.container{
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(98,99,102);
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    font-family: "Avenir", sans-serif;
+    padding: 0 1in 0 1in;
+    margin: 5% auto 5% auto;
+  }
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+  body{
+    background-color: #f9f9f9;
+  }
+  .mainMenu{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column: 1rem;
+  }
+  .Progress{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1rem;
+  }
+  h1{
+      font-size: 2.2rem;
+      font-weight: 600;
+  }
+  h2{
+      font-size: 1.9rem;
+      font-weight: 500;
+  }
+
+  h3{
+      font-size: 1.7rem;
+      font-weight: 500;
+  }
+  h4{
+      font-size: 1.5rem;
+      font-weight: 500;
+  }
+  p, li{
+      font-size: 1.3rem;
+      font-weight: normal;
+  }
+  p{
+      margin-left: 2.5%;
+  }
+  .topheader{
+      line-height: 1rem;
+  }
+  .pageheader{
+      margin-top: 5%;
+  }

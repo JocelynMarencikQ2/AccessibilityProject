@@ -1,0 +1,315 @@
+body{
+    background-color: #f9f9f9;
+    margin: 0 auto;
+  }
+  .container{
+    background-color: #ffffff;
+    width: 92.5%;
+    /*display: grid;*/
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid rgb(98,99,102);
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+  }
+  .main-header{
+    background-image: linear-gradient(135deg,rgb(0,150,94), rgb(0,118,168));
+    background-color: rgb(98,99,102);
+    padding: 35px 0px 35px 3%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: "Avenir", Arial, Sans-Serif;
+    width: 100%;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 1;
+  }
+  .main-header h1{
+      font-weight:normal;
+  }
+  .main-header img{
+      width: 5%;
+      height: 5%;
+      float: left;
+      padding: 25px;
+      margin: 0 auto;
+  }
+  .mainform{
+    margin-top: 12%;
+    border-radius: 10px;
+    padding: 20px;
+    /*display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;*/
+  }
+  .APIInformation h2{
+    font-size: 2rem;
+  }
+  .APIButton{
+    max-width:30%;
+    font-size: 1rem;
+    background-color: rgb(98,99,102);
+    border-radius: 10px;
+    box-shadow: none;
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    margin-bottom: 1.5rem;
+  }
+  ul{
+    margin-bottom: 2rem;
+  }
+  .APIButton:hover{
+    cursor: pointer;
+    background-color:rgb(146, 147, 151)
+  }
+  .APIButton:focus{
+    cursor: pointer;
+    background-color:rgb(146, 147, 151)
+  }
+  .APIButton:visited{
+    background-color: rgb(98,99,102);
+  }
+  .APIButton:active{
+    background-color: rgb(98,99,102);
+  }
+  a.abutton{
+    color:white;
+  }
+  .APIButton:visited{
+    color: white;
+  }
+.APIs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
+}
+.APIListing{
+  width: 95%;
+}
+  h2,p {
+    font-family: "Avenir", Arial, Sans-Serif;
+    font-weight: normal;
+  }
+  h2{
+    font-size: 1.5rem;
+    margin-left: 1%;
+  }
+  p{
+    font-size: 1.2rem;
+    margin-left: 1%;
+  }
+  label{
+    font-size: 1rem;
+  }
+  .url label{
+    margin: 0;
+    font-size: 2rem;
+  }
+  .submit{
+    margin-top: 2%;
+    margin-left: 1%;
+    max-width: 100%;
+    display: inline-block;  
+    width: auto; 
+    font-size: 2rem;
+    margin-bottom: 2%;
+    background-color: rgb(98,99,102);
+    color: white;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 0;
+    padding: 10px;
+  }
+  .submit:hover{
+    background-color: rgb(146, 147, 151);
+    cursor:pointer;
+  }
+  .submit:focus{
+    background-color: rgb(146, 147, 151);
+  }
+  .submit:active{
+    background-color: rgb(146, 147, 151);
+    color: #000000;
+  }
+  .indented{
+    margin-left: 5%;
+  }
+  .indentedText{
+    font-size: .9rem;
+    color:rgb(98,99,102)
+  }
+  
+  .header{
+    background-color: rgb(98,99,102);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 13px;
+  }
+  label{
+    font-family: "Avenir", Arial, Sans-Serif;
+  }
+  .question{
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(98,99,102);
+  }
+  .URLEnter{
+    font-size: 1.3rem;
+    width: calc(100vw - 20px);
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    margin-left: 1%;
+    max-width: 100%;
+    max-height: 150px;
+    left: 20%;
+  }
+  
+  textarea::placeholder{
+    font-family: "Avenir", Arial, Sans-Serif;
+    font-size: 1.3rem;
+  }
+  textarea{
+    font-family: "Avenir", Arial, Sans-Serif;
+    font-size: 1rem;
+  }
+  .question:nth-child(1){
+    grid-column: span 1;
+  }
+  
+  .question:nth-child(2),.question:nth-child(3){
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .question:nth-child(2){
+    font-size: 1.5rem;
+  }
+  .question:nth-child(4) label,.question:nth-child(5) label,.question:nth-child(11) label,.question:nth-child(12) label{
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 0 auto;
+  }
+  .question:nth-child(3) label{
+    font-size: 1.5rem;
+  }
+  .answers{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+  }
+  label{
+      vertical-align: center;
+  }
+  .url{
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .answerchoice{
+    width: 100%;
+  }
+  .About{
+    font-weight: 500;
+  }
+  .APIInformation{
+    width: 77.5%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    font-family: "Avenir", sans-serif;
+  }
+  .APIname{
+    font-size: 1.7rem;
+  }
+  .docuInfo{
+    margin-left: 40px;
+    font-size: 1rem;
+  }
+  .APIInformation li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .APIDescription{
+    font-size: 1rem;
+  }
+.APIButton{
+  font-size: 1.1rem;
+}
+.question h2{
+  font-size: 2.5rem;
+}
+.question p{
+  font-size: 1.5rem;
+}
+
+
+
+  @media (max-width: 400px){
+    .newQuestion{
+        margin-top: 20%;
+        display: flex;
+    }
+}
+
+  @media (max-width: 600px){
+    .main-header img{
+        width: 20%;
+        height: 20%;
+    }
+    .main-header{
+      font-size: .6rem;
+    }
+    .question{
+      width: 100%;
+    }
+  }
+  @media (max-width: 900px){
+    .main-header img{
+      width: 10%;
+      height: 10%;
+    }
+    .newQuestion{       
+        display: flex;
+      }
+      .URLEnter{
+          display: flex;
+          margin-top: 5%;
+      }
+    .main-header{
+      font-size: .75rem;
+      margin-bottom: 100px;
+    } 
+    /*.mainform{
+      display: inline-block;
+      margin-top: 25%;
+    }*/
+    .answers{
+      display: block;
+    }
+    .submit{
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 1500px){
+    .mainform{
+      margin-top: 200px;
+    }   
+    .answerchoice{
+      width: 100%;
+      padding: 2.5px;
+      margin: 2.5px;
+    }
+  }

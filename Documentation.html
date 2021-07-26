@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8"/>
+      <title>Accessibility Checker Documentation</title>
+      <link rel="stylesheet" href="/css/Docs.css" />
+    </head>
+    <body>
+      
+      <div id=#top class="container">
+
+        <h2> Main Menu </h2>
+        <ul class="mainMenu">
+          <li>
+            <a href="#GettingStarted"> Getting Started </a>
+          </li>
+          <li>
+            <a href="#Requirements"> Requirements </a>
+          </li>
+          <li>
+            <a href="#Sources"> Sources </a>
+          </li>
+          <li>
+            <a href="#TheVision"> The Vision </a>
+          </li>
+          <li>
+            <a href="#ProgressLog"> Progress Log </a>
+          </li>
+          <li>
+            <a href="#WhatsNew"> What's New? </a>
+          </li>
+          <li>
+            <a href="#HowItWorks"> How it Works </a>
+          </li>
+          <li>
+            <a href="#Example"> Example </a>
+          </li>
+        </ul>
+
+      <h1 class="topheader pageheader">
+        Software Product Documentation
+      </h1>
+      <h2 class="topheader">
+        Q2 Accessibility Checker
+      </h2>
+      <h3 class="topheader">
+        Jocelyn Marencik, Intern Summer 2021
+      </h3>
+      <h2 id="GettingStarted">
+        Getting Started
+      </h2>
+      <h3>
+        How can users interact with Q2 Accessibility Checker?
+      </h3>
+      <ul>
+        <li>
+          Users can input a URL Address of choice and submit the URL to the
+          software.
+        </li>
+        <li>
+          Users are provided with an overview of counts and statistics related to
+          the accessibility of the provided URL.
+        </li>
+        <li>
+          Users can view an output from multiple accessibility APIs.
+        </li>
+        <li>
+          Users can view the data in an organized manner such as with headings or
+          categories.
+        </li>
+      </ul>
+      <p><a href="#top">Back to Top</a></p>
+      <h3 id="Requirements">
+        Requirements
+      </h3>
+      <p>
+        A modern browser, a modern device, and a stable internet connection are
+        required to use the Q2 Accessibility Checker. The software uses data from
+        external sources, which requires an internet connection to fetch. Users can
+        utilize keyboard, mouse, and touch navigation to interact with the page.
+      </p>
+      <p><a href="#top">Back to Top</a></p>
+      <h3 id="Sources">
+        APIs, Sources, and Credits
+      </h3>
+      <h4>
+        APIs
+      </h4>
+      <p>
+        WebAIM API <a href="https://wave.webaim.org/api/"><em>(https://wave.webaim.org/api/)</em></a>
+      </p>
+      <p>
+        A11y API <a href="https://addyosmani.com/a11y/">(<em>https://addyosmani.com/a11y/)</em></a>
+      </p>
+      <p>
+        Pa11y API <a href="https://pa11y.org/">(<em>https://pa11y.org/)</em></a>
+      </p>
+      <p>
+        Puppeteer API. <a href="https://github.com/puppeteer/puppeteer/">(<em>https://github.com/puppeteer/puppeteer/)</em></a>
+      </p>
+      <h4>
+        Credits
+      </h4>
+      <p>
+        WCAG Guidelines version 2.1: <a href="https://www.w3.org/TR/WCAG21/"><em>https://www.w3.org/TR/WCAG21/</em></a>
+      </p>
+      <p><a href="#top">Back to Top</a></p>
+      <h2 id="TheVision">
+        The Vision
+      </h2>
+      <h3>
+        Background Statistics:
+      </h3>
+      <p>
+        Having an accessible webpage is important to ensure that users of all types
+        and abilities can interact with its features. Accessibility features
+        benefit both those with and without disabilities through alternative
+        methods of using the page. According to W3.org, more than fifteen percent
+        of all people in the world have a recognized disability. In a W3 case study
+        of the addition of text alternative transcripts to NPR, search traffic
+        increased by 6.86%. The WebAIM Million report in February 2021 showed the
+        rate of failure of the top one million websites at 97.4%. This mean that
+        only 2.6% of these websites can pass the WebAIM accessibility test without
+        returning any errors.
+      </p>
+      <h3>
+        What Accessibility Checker Can do to Help:
+      </h3>
+      <p>
+        Accessibility Checker will scan webpages to make sure that web pages are
+        inclusive for people and devices of all types and backgrounds. This
+        software is for employees at Q2 and their customers, to easily run
+        accessibility checks for a webpage, across multiple APIs at the same time.
+        Checking with multiple APIs decreases the presence of bias from a singular
+        API test and points out errors from more than one perspective. The software
+        also allows for manual review between the different APIs to check for false
+        positive results. Symbols and warnings are listed on the page where manual
+        attention is especially necessary, such as contrast errors and duplicate
+        IDs that the APIs find. Creating issues on Jira project boards is also
+        encouraged with buttons to start an issue on each WCAG result under the
+        Pa11y API.
+      </p>
+      <h3>
+        Sources:
+      </h3>
+      <p>
+        https://www.w3.org/WAI/fundamentals/accessibility-intro/
+      </p>
+      <p>
+        https://webaim.org/projects/million/
+      </p>
+      <p><a href="#top">Back to Top</a></p>
+      
+      <h2 id="ProgressLog">
+        Progress Log
+      </h2>
+      <div class="Progress">
+      <div>
+      <h3>
+        June 24, 2021
+      </h3>
+      </div>
+      <div>
+      <p>
+        Started HTML Framework
+      </p>
+      </div>
+      <div>
+      <h3>
+        June 25, 2021
+      </h3>
+      </div>
+      <div>
+      <p>
+        Continued HTML Framework
+      </p>
+      <p>
+        HTML Framework sent to Design Team
+      </p>
+      </div>
+      <div>
+      <h3>
+        June 28, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Improved HTML Framework
+      </p>
+      <p>
+        Initial CSS Added to Main Page
+      </p>
+    </div>
+    <div>
+      <h3>
+        June 29, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Mockup Ideas received from Design Team
+      </p>
+      <p>
+        Initial CSS Added to Report Page
+      </p>
+    </div>
+    <div>
+      <h3>
+        June 30, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Improved CSS for both pages
+      </p>
+      <p>
+        Fixed Sizing and Color
+      </p>
+      <p>
+        Added Initial Dashboard
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 1, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Added grid system to CSS for Report Page
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 6, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        JavaScript and Node Preparation
+      </p>
+      <p>
+        Downloading APIs
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 7, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Minor JavaScript Adjustments
+      </p>
+      <p>
+        Screen Reader Testing and Accessibility Adjustments
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 8, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        General UI Improvements
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 9, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        WebAIM API
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 12, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        WebAIM API and A11y API
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 13, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        A11y API
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 14, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Accessibility Adjustments, Puppeteer API
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 15, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Puppeteer API, JavaScript Adjustments
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 16, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Pa11y API Implementation
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 19, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Pa11y API Styling
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 20, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Pa11y API Accordion Layout Grouping and JavaScript
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 21, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Adding Comments
+      </p>
+      <p>
+        Font Awesome Icon Additions
+      </p>
+      <p>
+        Started Documentation
+      </p>
+      <p>
+        Additional Dropdown for Overview
+      </p>
+      <p>
+        Jira Button Concept
+      </p>
+      <p>
+        Paths for WebAIM API
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 22, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Documentation Wording
+      </p>
+      <p>
+        Documentation HTML Conversion
+      </p>
+      <p>
+        A11y Accordion
+      </p>
+      <p>
+        Single Column Formatting
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 23, 2021
+      </h3>
+    </div>
+    <div>
+      <p>
+        Added automatic scrolling to dashboard
+      </p>
+      <p>
+        Added icons to WebAIM and improved Contrast
+      </p>
+      <p>
+        Improved CSS Styling
+      </p>
+    </div>
+    <div>
+      <h3>
+        July 26, 2021
+      </h3>
+    </div>
+  <div>
+  <p>
+    Reformatting Documentation
+  </p>
+  <p> Reformatting Front Page into columns </p>
+</div>
+</div>
+      <p><a href="#top">Back to Top</a></p>
+      <h2 id="WhatsNew">
+        What's New?
+      </h2>
+      <h3>
+        V1
+      </h3>
+      <p>
+        Initial Version.
+      </p>
+      <h3>
+        V1.1 - In progress!
+      </h3>
+      <p>
+        Single-Column Redesign. The dashboard will now reflect major categories instead of each of the APIs.
+      </p>
+      <p>
+        General Style Changes including a larger overview and more accordion layouts.
+      </p>
+      <p>
+        Adds Icons to WebAIM
+      </p>
+      <p>
+        Fixes styling of top overview.
+      </p>
+      <p>
+        Adds automatic scrolling to dashboard.
+      <p>
+        <p><a href="#top">Back to Top</a></p>
+      <h2 id="HowItWorks">
+        How it works
+      </h2>
+      <ol>
+        <li>
+          The user enters a URL address for the page to check on the front page,
+          and optionally selects specific tests to run.
+        </li>
+        <li>
+          The WebAIM API will compile a JSON file to determine counts of specific
+          error types and accessibility features.
+        </li>
+        <li>
+          The A11y API will perform a series of Pass/Fail tests
+        </li>
+        <li>
+          The Pa11y API will check for errors across the WCAG Guidelines and
+          provide suggestions and errors with descriptions and recommendations.
+        </li>
+        <li>
+          The Puppeteer API will provide two screenshots, for both mobile and
+          desktop view, to ensure the webpage is response.
+        </li>
+      </ol>
+      <p><a href="#top">Back to Top</a></p>
+      <h2 id="Example">
+        An Example Usage:
+      </h2>
+      <p>
+        A team who developed a webpage which is located at <em>q2.com</em> wants to
+        check the accessibility of the page using multiple APIs.
+      </p>
+      <p>
+        A user enters the desired URL on the main page and clicks the submit
+        button:
+      </p>
+
+        <img
+          width="50%"
+          src="/images/Front Page.png"
+          alt="Front Page"
+        />
+
+      <p>
+        The user is presented with the initial results screen.
+      </p>
+
+        <img
+          width="50%"
+          src="/images/Results Page.png"
+          alt="Results Page"
+        />
+
+      <p>
+        The dashboard appears at the top, with an overview and total amounts of
+        errors from some of the included APIs. The Overview section can be expanded to view basic statistics.
+      </p>
+
+        <img
+          width="50%"
+          src="/images/Overview.png"
+        />
+
+      <p>
+        The WebAIM WAVE API will provide types of features and errors grouped into
+        categories, along with the locations of each instance. Categories involving
+        severity type are also colored to match the accessibility level of the
+        issue, where orange represents low accessibility, yellow represents
+        improvements, and green represents a section that is highly accessible. All
+        instances listed begin at the either the first ID value, or the first
+        element if no IDs are used on the page.
+      </p>
+      <p>
+        <img
+          width="50%"
+          src="/images/Webaim.png"
+        />
+        <img
+          width="50%"
+          src="/images/Instances.png"
+          alt="Graphical user interface, text, application
+      
+      Description automatically generated"
+        />
+      </p>
+      <p>
+        The screenshot above shows an open accordion for the errors category and
+        the first type of error with its instances. The errors accordion is orange,
+        showing that there were several errors found on the page. The API counted
+        six places where alternative text may be missing from an important part of
+        the page, and lists the location for each time this occurs.
+      </p>
+      <p>
+        The Pa11y API will list varieties of errors and suggestions based on the
+        WCAG Guidelines, Version 2.1. Error headers will display the number of the
+        error, the principle and guideline, and what the guideline represents.
+        Inside each expanded error, details including a definition and a location
+        will also appear. For special instances where manual review and user
+        attention is especially necessary, an icon will appear next to the error.
+        These include duplicate ID errors, submit button errors, and contrast
+        errors. Duplicate ID and contrast errors will also display the name of the
+        ID and the recommended color, respectively.
+      </p>
+      <p>
+        (In development) An option to create a Jira Issue for each error will also
+        appear at the bottom of each error, making it easier to add relevant errors
+        and suggestions to your project board.
+      </p>
+
+        <img
+          width="317"
+          height="337"
+          src="/images/Pa11yTest.png"
+        />
+
+      <p>
+        In this screenshot, a violation of WCAG Guideline 1.4 was found, involving
+        contrast. A contrast icon and a recommended color appear, alongside the
+        definition, a path, and a Jira button.
+      </p>
+      <p>
+        With the A11y API, the user can view the results from a series of simple
+        pass/fail tests if they apply to what is included within the content of the
+        page. The results are pulled from a JSON file automatically created by the
+        API. A button for help regarding each of the tests is also provided,
+        alongside the level of severity of a failing result in each category.
+      </p>
+
+        <img
+          width="50%"
+          src="/images/A11yTests.png"
+        />
+
+      <p>
+        In the above screenshot, the page passed two of the tests shown, and one
+        did not apply. Each test has its own severity level and a help button,
+        linking to a location in the A11y API Documentation page about each test
+        and how to ensure the page passes.
+      </p>
+      <p>
+        The Puppeteer API will take a screenshot of the provided page in two
+        different views. These include a mobile phone view, and a desktop computer
+        view, which will be printed to the results screen. In an instance where the
+        API takes too long to load the image and a different image is displayed, a
+        reload button appears at the top of the section. Clicking this button will
+        reload the images with a new timestamp, allowing the most recent image file
+        to appear and replace the old image.
+      </p>
+
+        <img
+          width="50%"
+          src="/images/PuppeteerAPI.png"
+        />
+
+      <p>
+        In this screenshot, a mobile and desktop view of the page appear alongside
+        the reload button at the top. These allow the user to understand if the
+        page is responsive and able to be re-scaled.
+      </p>
+      <p><a href="#top">Back to Top</a></p>
+    </div>
+    </body>
+  </html>
+    

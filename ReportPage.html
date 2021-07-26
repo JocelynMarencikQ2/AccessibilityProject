@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Accessibility Check Report</title>
+    <link rel="stylesheet" href ="css/report.css">
+    <script src="https://kit.fontawesome.com/dabfecba94.js" crossorigin="anonymous"></script>
+  </head>
+    <body>
+
+    <header role="banner" id="content-header">
+      <div class="main-header">
+        <img src="images/Q2_logo.svg" alt="Q2 Logo" aria-label="Q2 Logo" width="10%"/>
+        <h1 alt="Accessibility Check Report" aria-label="Accessibility Check Report">Accessibility Check Report</h1>
+      </div>
+    </header>
+
+    <main id="main-content">
+    <div class="container">
+        <div class="result wide mainoverview">
+          <div class=header id=key3>
+            <h2 alt="Overview" aria-label="Overview">Overview</h2>
+            <p>An overview with statistics about this page.</p>
+        </div>
+        <div class="disclaimer"><p>Disclaimer: Some results provided by APIs on this page may be false-positive, or may only be related to screen-sizes.  Be sure to review all results manually.</p></div>
+          <div class="key wideColumns">
+            
+            <div class="Elements" alt="Elements"><p>Elements: <br /> <span class="elements_p">...</span></p></div>
+            <div class="ItemCount"alt="ItemCount"><p>Item Count: <br /> <span class="itemCount_p">...</span></p></div>
+            <div class="URLAddress" alt="URLAddress"><p>URL Address: <br /> <span class="url_p">...</span></p></div>
+            
+          </div>
+        </div>
+
+      <button  class="dashAcc" alt="View Overview" aria-describedby="overview" onClick="openClose();"><p>View Main Error Types<i class="fas fa-chevron-left"></i></p></button>
+    <!--<div class="dashboard">-->
+
+
+
+      <div id=#overview class="result wide overview">
+       
+       
+
+    <div class="result wide">
+      <div class=header id=key>
+          <h2 alt="Contrast Totals" aria-label="WebAIM Totals">Contrast Totals</h2>
+          <p>Displays statistics related to Contrast Ratio Errors.</p>
+          
+      </div>
+        <div class="key">
+          <div class="WebAIMContrast" alt="Contrast Error Total from WebAIM"><p><span class="dashHead">WebAIM API: </span><br/><span class="low_p">Loading...</span></p></div>
+          <div class="Pa11yContrast" alt="Contrast Error Total from Pa11y"><p><span class="dashHead">Pa11y:</span><br/><span class="medium_p">Loading...</span></p></div>
+          
+        </div>
+    </div>
+
+    
+    <div class="dashboard">
+    <div class="result wide">
+      <div class=header id=key2>
+          <h2 alt="Alt Totals" aria-label="Alt Totals">Alt Text Statistics</h2>
+          <p>Displays Statistics related to Text Alternatives.</p>
+      </div>
+        <div class="key">
+          <div class="WebAIMContrast" alt="Total Alt Attributes:"><p><span class="dashHead">Total Alt Attributes (Counted by WebAIM):</span><br/> <span class="low_p2">...</span></p></div>
+          <div class="Pa11yContrast" alt="Text Alternative Related Errors:"><p><span class="dashHead">Related Errors (Found by Pa11y): </span><br /><span class="full_p2">...</span></p></div>
+        </div>
+    </div>
+
+    <div class="result wide">
+      <div class=header id=key4>
+          <h2 alt="Pa11y Totals" aria-label="Aria Totals">Aria Totals</h2>
+          <p>Here is the total amount of errors found by the Pa11y API.</p>
+      </div>
+        <div class="key">
+          <div class="WebAIMContrast" alt="Aria Total:"><p><span class="dashHead">Total Aria Attributes (Counted by WebAIM): </span><br/><span class="low_p3">...</span></p></div>
+          <div class="Pa11yContrast" alt="Aria Errors:"><p><span class="dashHead">Related Errors (Found by A11y): </span><br/><span class="ARIAErrors">...</span></p></div>
+          
+        </div>
+    </div>
+  </div>
+</div>
+      <div id="WebAIM" class="result">
+        <div class="header">
+          <h2 alt="WebAIM API">WebAIM API</h2>
+          <p  alt="Read your results from the WebAIM API"> View your numbers from the WebAIM API.</p>
+        </div>
+
+        <div class="paragraph_wa" id="paragraphwa">
+          
+
+        </div>
+
+        <template id="cat">
+          <button class="category_wa">
+            <p><span class="description"></span><span class="count"></span><i class="fas fa-chevron-left"></i></p>
+            <p><span class="selectors"></span></p>
+          </button>
+          
+          <div class="items"></div>
+          
+        </template>
+      </div>
+
+      <div class="result">
+        <div class="header">
+          <h2 alt="Pa11y" aria-Label="Pa11y">Pa11y</h2>
+          <p alt="Read your results from the Pa11y Accessibility Toolkit">Read your results from the Pa11y API.</p>
+        </div>
+        <div class="disclaimer">
+          <p><i class='fas fa-exclamation-triangle'> </i> = Duplicate ID Error.</p>
+          <p><i class='fas fa-adjust'> </i> = Contrast Error.</p>
+          <p><i class="fas fa-mouse"></i> = Submit Button Error. This could be the result of a &#60;div&#62; serving as a button. </p>
+          <p><a href="https://www.w3.org/TR/WCAG21/">View the WCAG 2.1 Guidelines, released June 5th, 2018.</a></p>
+        </div>
+        
+        <button class="category_pa" aria-describedby="pa11y"><p><span class="Pa11ySuggestions">View all Pa11y Suggestions (</span><span class="Pa11yCount">...</span><span>)</span><i class="fas fa-chevron-left"></i></p></button>
+        <div class="pa11y" id="pa11y" tabindex="0"></div>
+        <div class="loading circle"></div><p class="loading loadingText"> Loading, please wait. </p><p class="loading loadingTextSmall"> Make sure you entered a valid URL.</p>
+      </div>
+
+      <div class="result">
+        <div class="header">
+          <h2 alt="A11y" aria-label="A11y">A11y</h2>
+          <p alt="Read your results from the A11y tools">Read your results from various A11y Tests.</p>
+        </div>
+        
+        <button class="A11y " aria-describedby="auditsection"><p><span>View all A11y Suggestions</span><i class="fas fa-chevron-left"></i></p></button>
+        <div class="auditsection"></div>
+        <div class="loading2 circle"></div><p class="loading2 loadingText2"> Loading, please wait. </p><p class="loading2 loadingTextSmall2"> Make sure you entered a valid URL.</p>
+      </div>
+
+      <div class="result">
+        <div class="header" title="Results from Puppeteer">
+          <h2 alt="Puppeteer" aria-label="Puppeteer">Puppeteer</h2>
+          
+          <p alt="View the website at different sizes, courtesy of the Puppeteer API">View the website at different sizes, courtesy of the Puppeteer API.</p>
+        </div>
+        
+        <div class="disclaimer messageGrid">
+          <button class="reload message" onClick="reload();">Reload</button>
+          <p class="message">If you are not seeing the correct screenshots, click on the button to reload.</p>
+        </div>
+        <div class="puppeteerImages">
+          <div>
+            <h3 class="viewheader">Mobile View:</h3>  
+            <p style="text-align: center"> Based on the <em>iPhone X</em> resolution</p>     
+            <div class="pImage"></div> 
+          </div>
+          <div>      
+            <h3 class="viewheader">Desktop View:</h3>
+            <div class="pImage2"></div>
+          </div>
+          
+        </div>
+        <button class='createIssue' style="margin-left: 40px;margin-bottom: 40px;margin-top: 40px"> <i class='fab fa-jira'></i>  Create Jira Issue for Responsive Pages</button>
+      </div>
+      <a class="button" href="/" id="BackButton">Back</a>
+    </main>
+
+    
+
+    <script src="js/script.js"></script>
+    
+    
+    
+  </body>
+</html>

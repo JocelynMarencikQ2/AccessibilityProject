@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q2 Accessibility Check</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/dabfecba94.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      role="banner"
+      id="page-header"
+      class="page-header"
+      alt="page header"
+      aria-label="page header"
+    >
+      <div class="main-header">
+        <img
+          src="/images/Q2_logo.svg"
+          alt="Q2 Logo"
+          aria-label="Q2 Logo"
+          height="5%"
+          width="5%"
+        />
+        <h1 alt="Accessibility Check" aria-label="Accessibility Check">
+          Accessibility Check
+        </h1>
+      </div>
+    </header>
+
+    <main id="main-content" alt="main content" aria-label="main content">
+      <div class="container" id="container">
+        <form
+          action="/report"
+          method="GET"
+          class="mainform"
+          alt="Setup form"
+          aria-label="Setup form"
+        >
+          <div class="question">
+            <div class="header">
+              <h2 alt="URL and Checks" aria-label="URL and Checks">
+                Get Started.
+              </h2>
+              <p>Welcome to the Q2 Accessibility Checker.  Enter a valid URL to Get Started.</p>
+            </div>
+            <div class="url">
+              <label for="URLEnter">URL:</label>
+              <textarea
+                aria-required="true"
+                id="URLEnter"
+                class="URLEnter"
+                placeholder="Enter the URL. Do not enter http:// or end the URL with a /."
+                name="URLEnter"
+                alt="URL Text Box"
+                aria-label="URL Text Box"
+              ></textarea>
+            </div>
+            <!--<h2 class="newQuestion">Tests and Checks</h2>
+          <p> WebAIM Checks come in four varieties, each providing more detail.  Axe can help find specific problems and help you fix them.  A11y tools will provide you with a series of Pass/Fail tests.  Puppeteer will present you with helpful screenshots.</p>
+          <div class="answers">
+            <div class="answerchoice">
+              <input type="checkbox" aria-owns="Version1Radio" id="WebAIMCheck" name="OS"/>
+              <label for="WebAIMCheck" alt="WebAIM API Label">WebAIM API</label><br/>
+              <input type="radio" class="indented" id="Version1Radio" name="WebAIMVersion" alt="WebAIM Test Version 1 Radio Button"/>
+              <label for="Version1Radio" class="indentedText" alt="WebAIM Test Version 1 Label" >WebAIM Test Version 1</label><br/>
+              <input type="radio" class="indented" id="Version2Radio" name="WebAIMVersion" alt="WebAIM Test Version 2 Radio Button"/>
+              <label for="Version2Radio" class="indentedText"  alt="WebAIM Test Version 2 Label">WebAIM Test Version 2</label><br/>
+              <input type="radio" class="indented" id="Version3Radio" name="WebAIMVersion" alt="WebAIM Test Version 3 Radio Button"/>
+              <label for="Version3Radio" class="indentedText" alt="WebAIM Test Version 3 Label">WebAIM Test Version 3</label><br/>
+              <input type="radio" class="indented" id="Version4Radio" name="WebAIMVersion" alt="WebAIM Test Version 4 Radio Button"/>
+              <label for="Version4Radio" class="indentedText" alt="WebAIM Test Version 4 Label">WebAIM Test Version 4</label><br/>
+            </div>
+            <div class="answerchoice">
+                <input type="checkbox" id="AxeCheck" name="OS"/>
+                <label  for="AxeCheck" alt="Axe Accessibility Toolkit Label">Axe Accessibility Toolkit</label><br/>
+            </div>
+            <div class="answerchoice">
+                <input type="checkbox" id=A11yCheck name="OS"/>
+                <label for="A11yCheck" alt="A11y tools Label">A11y tools</label><br/>
+            </div>
+            <div class="answerchoice">
+                <input type="checkbox" id=PuppeteerCheck name="OS"/>
+                <label  for="PuppeteerCheck" alt="Puppeteer Label">Puppeteer</label><br/>
+            </div>
+          </div>-->
+
+            <button
+              class="submit"
+              type="submit"
+              id="SubmitButton"
+              alt="Submit Button"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+
+        <div class="APIInformation">
+          <h1 class="About">About the Accessibility Checker:</h1>
+          <h2 class="APIInfo"><i class="fas fa-laptop-code"></i> What is this? </h2>
+          <ul>
+            <li>
+              <span class="APIname">A place to check the accessibility of a page, for Q2 employees.</span><br/>
+              <span class="APIDescription">
+                This software uses multiple APIs to run various accessibility tests to ensure that your page is inclusive and 
+                accessible for everyone.  It includes a dashboard with common statistics to types of errors, as well as sections
+                for the results that each of the APIs return.
+              </span>
+            </li>
+          </ul>
+          <h2 class="APIHead"><i class="fas fa-laptop-code"></i> APIs Used</h2>
+          <div class="APIs">
+          <div class="APIListing AboutWebAIM">
+              <p class="APIname">WebAIM WAVE API</p><br />
+              <p class="APIDescription">
+                The WebAIM API will provide errors and accessibility-related
+                components, sorted into categories. Locations of each instance
+                will also be displayed.</p>
+              <br /><a class="abutton" href="https://wave.webaim.org/api/"
+                ><div class="APIButton">WebAIM WAVE</div></a>
+              </div>
+            <div class="APIListing AboutPa11y">
+              <p class="APIname">Pa11y API</p><br />
+              <p class="APIDescription">
+                This API will check against the WCAG AA Guidelines, Version 2.1,
+                and provide feedback and recommendations for each violation
+                found.</p>
+                <br /><a class="abutton" href="https://pa11y.org/"><div class="APIButton">Pa11y</div></a>
+              </div>
+            <div class="APIListing AboutA11y">
+              <p class="APIname">A11y API</p><br />
+              <p class="APIDescription">
+                This API will run a simple series pass-fail tests and determine
+                if they apply to the URL provided. Help documentation will be
+                provided about each of the tests conducted.</p>
+              <br /><a class="abutton" href="https://pa11y.org/"
+                ><div class="APIButton">A11y</div></a
+              >
+              </div>
+            <div class="APIListing AboutPuppeteer">
+              <p class="APIname">Puppeteer API</p><br />
+              <p class="APIDescription">
+                The Puppeteer API will visit the URL entered and take
+                screenshots in both a Mobile and Desktop view, and provide them
+                on the screen in a panel.
+              </p>
+              <br /><a class="abutton" href="https://pptr.dev/"
+                ><div class="APIButton">Puppeteer</div></a>
+            </div>
+        </div>
+          <h2 class="APIHead"><i class="fas fa-scroll"></i> Documentation</h2>
+          <p class="docuInfo">
+            The documentation for this software can be found
+            <a class="here" href="/docs">here.</a> The documentation includes
+            an overview, requirements, features, credits, and a progress log.
+          </p>
+          <h2> <i class="fas fa-laptop-code"></i> Developed by: </h2>
+          <p class="docuInfo">Jocelyn Marencik, a 2021 Summer Intern, with the help
+            of employees across Q2.</p>
+           
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

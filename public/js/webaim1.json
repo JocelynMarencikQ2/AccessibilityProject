@@ -1,0 +1,44 @@
+
+
+{
+    "status": {
+      "success": true,
+      "httpstatuscode": 200
+    },
+    "statistics": {
+      "pagetitle": "Q2 | Solutions Designed to Transform Financial Experiences",
+      "pageurl": "http://q2.com",
+      "time": 3.32,
+      "creditsremaining": 90,
+      "allitemcount": 109,
+      "totalelements": 659,
+      "waveurl": "http://wave.webaim.org/report?url=http://q2.com",
+      "domid": "1cb0152b2f95355c7e55c610f5e8cd34"
+    },
+    "categories": {
+      "error": {
+        "description": "Errors",
+        "count": 15
+      },
+      "contrast": {
+        "description": "Contrast Errors",
+        "count": 6
+      },
+      "alert": {
+        "description": "Alerts",
+        "count": 1
+      },
+      "feature": {
+        "description": "Features",
+        "count": 8
+      },
+      "structure": {
+        "description": "Structural Elements",
+        "count": 25
+      },
+      "aria": {
+        "description": "ARIA",
+        "count": 54
+      }
+    }
+  }
